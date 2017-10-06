@@ -60,7 +60,9 @@ public class Firefox {
 	By shippingAndReturnAccordion = By.xpath("//*[@id='product-shipping-returns-header']");
 	By pinLink = By.xpath("//*[@id='socialIcon_pi2']");
 	By addToBagButton = By.xpath("//div[1]/div/section[2]/div/div[1]/span");
-
+	
+	System.out.println("Browser: Firefox");
+	System.out.println("Page URL: " + driver.getCurrentUrl());
 	printElem(brandNameLink);
 	printElem(brandBrandName);
 	printElem(singlePrice);
